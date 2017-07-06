@@ -1,30 +1,11 @@
 /*    Assignment 1
 
-    Implementing Stochastic Diffusion Search Algorithm
+    Implementing Stochastic Diffusion Search Algorithm: Simple search based on strings.
       by Wilson Tolentino da Silva
 
     Source:
       http://www.doc.gold.ac.uk/~mas02gw/MSCI11/2010/1/SDS_Review_27%20Sep%202010.pdf
         Prof Mark Bishop, 1989
-
-    Simple Search Space based on a string.
-*/
-
-/* 
-      Basics:
-
-    Program will currently only PRINT TO CONSOLE. No GUI has been implemented. Refresh for a new test.
-    Console will show the number of iterations needed to find the solution, and the solution found.
-    The Stochastic Diffusion Search Algorithm (SDS) is in a constructor function because I plan on expanding it by
-  having multiple tests running concurrently, perhaps wrapped in a probabilistic swarm intelligence algorithm, 
-  to find the best solution over time, rather than a good immediate solution.
-    Currently, the target is the string "kittens", which will sometimes give a false
-  positive under "mittens". This is working as intended. The reason is that the whole
-  ethos of swarm intelligence, and especially with the SDS algorithm, is finding a good solution, given the set of parameters,
-  rather than the best possible solution, at any given time. 
-    This could be solved by forcing a static number of iterations on the algorithm, however, I'm inclined to
-  leave it as is, exactly to show what is meant to happen on a singular test.
-
 */
 
 // String to search
